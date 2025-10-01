@@ -106,13 +106,13 @@ $flash = flash_pull();
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>CGRD</title>
-    <link rel="stylesheet" href="/style.css"/>
+    <link rel="stylesheet" href="/public/assets/style.css"/>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script defer src="/script.js"></script>
 </head>
 <body>
 <div class="logo-container">
-    <img src="images/logo.svg" alt="Logo" class="logo">
+    <img src="public/images/logo.svg" alt="Logo" class="logo">
 </div>
 
 <main class="container">
@@ -152,13 +152,13 @@ $flash = flash_pull();
                             </div>
                             <div class="item-actions">
                                 <button class="edit-btn" type="button">
-                                    <img src="images/pencil.svg" alt="Edit">
+                                    <img src="public/images/pencil.svg" alt="Edit">
                                 </button>
                                 <form method="post">
                                     <input type="hidden" name="action" value="delete">
                                     <input type="hidden" name="id" value="<?=h($n['id'])?>">
                                     <button type="submit">
-                                        <img src="images/close.svg" alt="Delete">
+                                        <img src="public/images/close.svg" alt="Delete">
                                     </button>
                                 </form>
                             </div>
@@ -173,7 +173,7 @@ $flash = flash_pull();
             <div class="form-header">
                 <h2 id="form-title">Create News</h2>
                 <button id="cancel-edit" class="icon-btn" type="button" aria-label="Cancel edit" style="display:none;">
-                    <img src="images/close.svg" alt="">
+                    <img src="public/images/close.svg" alt="">
                 </button>
             </div>
 

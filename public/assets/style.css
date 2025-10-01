@@ -6,7 +6,7 @@ body {
     margin:0;
     line-height:1.5;
     color:#111;
-    background: url("images/waves.svg");
+    background: url("../assets/images/waves.svg");
     background-size: cover;
 }
 
